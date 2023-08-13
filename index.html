@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+    />
   </head>
   <body>
-    <header>
+    <header class="top-line">
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+        <a class="logo-link" href="./index.html"
+          >Web<span class="logo-studio">Studio</span></a
+        >
+        <ul class="navigation">
           <li>
             <a href="">Studio</a>
           </li>
@@ -22,7 +29,7 @@
           </li>
         </ul>
       </nav>
-      <address>
+      <address class="address">
         <ul>
           <li>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -34,37 +41,39 @@
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero-section">
+        <h1 class="hero-header">Effective Solutions for Your Business</h1>
+        <button class="button" type="button">
+          <span class="button-text">Order Service</span>
+        </button>
       </section>
-      <section>
+      <section class="feature">
         <h2 hidden>Feature</h2>
         <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+          <li class="feature-list">
+            <h3 class="feature-header">Strategy</h3>
+            <p class="feature-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="feature-list">
+            <h3 class="feature-header">Punctuality</h3>
+            <p class="feature-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="feature-list">
+            <h3 class="feature-header">Diligence</h3>
+            <p class="feature-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="feature-list">
+            <h3 class="feature-header">Technologies</h3>
+            <p class="feature-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -98,9 +107,78 @@
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/daniel-wilson.jpg" alt="Daniel Wilson" width="264" />
+            <img
+              src="./images/daniel-wilson.jpg"
+              alt="Daniel Wilson"
+              width="264"
+            />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/banking-app.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/cashless-payment.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/meditation-app.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/taxi-service.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/screen-illustrations.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/online-courses.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
