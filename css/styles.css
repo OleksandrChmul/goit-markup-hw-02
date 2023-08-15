@@ -91,14 +91,14 @@ a {
 .list-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .list-text {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -107,6 +107,10 @@ a {
 
 .our-team {
   background-color: #f4f4fd;
+}
+
+.list-item {
+  background-color: #ffffff;
 }
 .our-team-title {
   font-size: 36px;
@@ -145,5 +149,9 @@ a {
 }
 
 .footer .logo-link .logo-studio {
+  color: #f4f4fd;
+}
+
+.footer .list-text {
   color: #f4f4fd;
 }
